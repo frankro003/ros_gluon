@@ -1,0 +1,12 @@
+controller_list:
+  - name: gluon_bot
+    action_ns: "follow_joint_trajectory"
+    type: FollowJointTrajectory
+    default: true
+    joints:
+      - axis_joint_1
+      - axis_joint_2
+      - axis_joint_3
+      - axis_joint_4
+      - axis_joint_5
+      - axis_joint_6

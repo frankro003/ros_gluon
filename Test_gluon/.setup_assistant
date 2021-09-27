@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: gluon_description
+    relative_path: urdf/gluon_moveit_sim_pos.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/gluon.srdf
+  CONFIG:
+    author_name: A
+    author_email: A@A.com
+    generated_timestamp: 1631175943
